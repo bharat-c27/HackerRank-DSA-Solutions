@@ -33,12 +33,12 @@ public:
 
 int main()
 {
-    int houseStartLocation, houseEndLocation, appleTreeLocation, orangeTreeLocation;
+    int s, t, a, b;
     int m, n;
 
-    cin >> houseStartLocation >> houseEndLocation;
+    cin >> s >> t;
     cout << endl;
-    cin >> appleTreeLocation >> orangeTreeLocation;
+    cin >> a >> b;
     cout << endl;
     cin >> m >> n;
 
@@ -55,6 +55,6 @@ int main()
     }
 
     Solution ob;
-    ob.countApplesAndOranges(houseStartLocation, houseEndLocation, appleTreeLocation, orangeTreeLocation, apples, oranges);
+    ob.countApplesAndOranges(s, t, a, b, apples, oranges);
     return 0;
 }
